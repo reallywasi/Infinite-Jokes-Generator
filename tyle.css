@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  color: rgb(32, 31, 31);
+  font-size: 1.3rem;
+}
+
+nav {
+  /* width: 100%; */
+  text-align: center;
+  background-color: #7c0a02;
+}
+.same {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 200;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.right {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.same:hover {
+  background-color: bisque;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+body {
+  background-image: url("5.jpg");
+  background-size: auto;
+}
+.out {
+  padding: 0px;
+}
+.wrapper {
+  min-width: 70%;
+  max-width: 95%;
+  min-height: none;
+  max-height: 95%;
+  border-radius: 10%;
+  margin: 5px;
+  /* background-color: blueviolet; */
+  /* border: 2px solid red; */
+  padding: 5px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* to fade */
+  /* background-color: rgba(0, 0, 0, 0.1 ); */
+  align-items: center;
+  backdrop-filter: blur(1.5px); /* Adjust the blur amount
+   as needed */
+
+  background: radial-gradient(circle, transparent 100%, rgba(0, 0, 0, 0.7) 40%);
+}
+#joke {
+  font-family: "Bungee Spice", cursive;
+  font-family: "Kanit", sans-serif;
+  font-size: 2rem;
+  text-shadow: 20px;
+}
+span {
+  display: block;
+  font-size: 90px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  /* text-shadow: black 0px 0px 2px; */
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+  text-align: center;
+  word-wrap: break-word;
+  margin: 20px;
+  opacity: 0;
+}
+.fade {
+  opacity: 2;
+  transition: opacity 1.5s;
+}
+button {
+  font-family: "Kanit", sans-serif;
+  display: block;
+  background-color: rgb(132, 21, 21);
+  border: none;
+  padding: 10px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-shadow: 1px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff,
+    -1px 0 0 #ffffff;
+
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 8px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  transition-delay: 0.1s;
+  margin: 0 auto;
+  background-color: rgb(183, 35, 35);
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.down{
+  font-size: 1.2rem;
+}
+.social-logo{
+width: 20px;
+margin-left: 0.5rem;
+}
+.inl{
+display: inline;
+}
+.downmost{
+ justify-content: center;
+  position: fixed;
+  font-family: 'Edu SA Beginner', cursive;
+padding-right: 1rem;
+  bottom: 0;
+  width: 100%;
+  font-weight: 800;
+  color: #090d11;
+  background-image: linear-gradient(to left, rgb(71, 4, 4), white);
+
+}
+.social-href{
+  cursor: pointer;
+}
+
+.hell{
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(to right,#7c0a02,rgb(38, 16, 16));
+  height: 3.5rem;
+  justify-content: space-between;
+}
+.it {
+color: aliceblue;
+padding-left: 2rem;
+padding-right: 2rem;
+font-size: 1.3rem;
+overflow: hidden;
+}
+.logo img{
+  top: 0;
+width: 110px;
+}
+.code img{
+  top: 0;
+width: 100px;
+right: 0;
+}
+.it a{
+  color: aliceblue;
+}
+.it :hover{
+  color: rgb(170, 120, 58);
+}
